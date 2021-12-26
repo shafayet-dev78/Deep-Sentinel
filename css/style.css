@@ -1,0 +1,664 @@
+/******************* Comman CSS Start ********************* */
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 24px;
+  font-family: 'Poppins', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+}
+a, a:hover{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+  display: inline-block;
+}
+
+.common-text{
+  text-align: center;
+}
+.common-text h2{
+  color: #000;
+  margin-bottom: 30px;
+}
+.common-text h2 span{
+  color: red;
+}
+.common-text .btn-danger{
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #fff;
+  background: red;
+  border: 1px solid red;
+  padding: 6px 15px;
+  border-radius: 25px;
+  transition: 1s;
+  margin-bottom: 60px;
+}
+.common-text .btn-danger:hover{
+  color: red;
+  background: transparent;
+  border: 1px solid red;
+}
+.common-text .btn-light{
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #000;
+  background: #fff;
+  border: 1px solid #000;
+  padding: 6px 15px;
+  border-radius: 25px;
+  transition: 1s;
+  margin-bottom: 60px;
+}
+.common-text .btn-light:hover{
+  color: #fff;
+  background: #000;
+  border: 1px solid #fff;
+}
+/******************* Comman CSS End ********************* */
+.top-bar{
+  width: 100%;
+  padding: 20px 0;
+}
+.top-bar .top-menu{
+  text-align: right;
+}
+.top-bar .top-menu li{
+  margin-left: 20px;
+}
+.top-bar .top-menu li a{
+  color: #000;
+  font-size: 14px;
+  transition: 1s;
+}
+.top-bar .top-menu li a:hover{
+  color: red;
+  text-decoration: underline;
+}
+.top-bar .top-menu .btn-danger{
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #fff;
+  background: red;
+  border: 1px solid red;
+  padding: 6px 15px;
+  border-radius: 25px;
+  transition: 1s;
+}
+.top-bar .top-menu .btn-danger:hover{
+  color: red;
+  background: transparent;
+  border: 1px solid red;
+}
+/*********** Top Bar End *********** */
+/************** banner-section start ************** */
+.banner-section{
+  width: 100%;
+  background: #fff;
+}
+.banner-section h2{
+  margin: 100px 0px 20px 0px;
+}
+.banner-section h5{
+  font-size: 18px;
+  color: red;
+  margin-bottom: 20px;
+}
+.banner-section p{
+  font-size: 14px;
+  margin-right: 8px;
+  margin-bottom: 50px;
+}
+.banner-section .btn-danger{
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #fff;
+  background: red;
+  border: 1px solid red;
+  padding: 6px 15px;
+  border-radius: 25px;
+  transition: 1s;
+}
+.banner-section .btn-danger:hover{
+  color: red;
+  background: #fff;
+  border: 1px solid red;
+}
+.banner-section .btn-light{
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #000;
+  background: #fff;
+  border: 1px solid #000;
+  padding: 6px 15px;
+  border-radius: 25px;
+  transition: 1s;
+}
+.banner-section .btn-light:hover{
+  color: #fff;
+  background: #000;
+  border: 1px solid #fff;
+}
+.banner-section img{
+
+}
+/************** banner-section end ************************ */
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+/************** crime-section start *************** */
+.crime-section{
+  width: 100%;
+  text-align: center;
+  margin: -90px 0 50px;
+}
+.crime-section .card{
+  border-radius: 1.50rem;
+}
+/************ crime-section end ****************** */
+/************* security-section start ***************** */
+.security-section{
+  width: 100%;
+  padding: 50px 0;
+}
+.security-section h2{
+  color: #000;
+  margin-top: 50px;
+}
+.security-section h2 span{
+  color: red;
+}
+.security-section p{
+  font-size: 15px;
+  margin-bottom: 90px;
+  margin-top: 30px;
+  padding-right: 70px;;
+}
+/************* security-section End ***************** */
+/************* camera-section start ******************** */
+.camera-section{
+  width: 100%;
+  background: url("../images/bg.png") center top no-repeat;
+  background-size: cover;
+  padding: 50px 0;
+}
+.camera-section h2{
+  font-size: 28px;
+  color: #fff;
+  margin: 30px 0;
+}
+.camera-section h2 span{
+  color: red;
+}
+.camera-section p{
+  color: #fff;
+  font-size: 14px;
+  line-height: 22px;
+  margin: 20px 0 40px;
+}
+.camera-section .camera{
+  text-align: center;
+  margin-top: 120px;
+}
+.camera-section .common-text .btn-danger{
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #fff;
+  background: red;
+  border: 1px solid red;
+  padding: 6px 15px;
+  border-radius: 25px;
+  transition: 1s;
+  margin-right: 10px;
+}
+.camera-section .common-text .btn-danger:hover{
+  color: red;
+  background: transparent;
+  border: 1px solid red;
+}
+.camera-section .common-text .btn-light{
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #000;
+  background: #fff;
+  border: 1px solid #000;
+  padding: 6px 15px;
+  border-radius: 25px;
+  transition: 1s;
+}
+.camera-section .common-text .btn-light:hover{
+  color: #fff;
+  background: transparent;
+  border: 1px solid #fff;
+}
+/************* camera-section end******************** */
+/********** burglar-section start ************** */
+.burglar-section{
+  width: 100%;
+  padding: 80px 0;
+}
+.burglar-section .row{
+  background: #fff;
+  border-radius: 12px;
+}
+.burglar-section h2{
+  color: #000;
+  margin-bottom: 80px;
+  text-align: center;
+}
+.burglar-section h2 span{
+  color: red;
+}
+.burglar-section h5{
+  font-size: 14px;
+  color: red;
+  margin-top: 60px;
+  line-height: 30px;
+}
+.burglar-section p{
+font-size: 16px;
+line-height: 26px;
+margin-bottom: 20px;
+}
+.burglar-section h4{
+  font-size: 18px;
+  line-height: 28px;
+  color: red;
+}
+/********** burglar-section end ************ */
+/********** while-section start ************** */
+.while-section{
+  width: 100%;
+  padding: 80px 0;
+}
+.while-section .row{
+  background: #fff;
+  border-radius: 12px;
+}
+.while-section h5{
+  font-size: 14px;
+  color: red;
+  margin-top: 60px;
+  line-height: 30px;
+}
+.while-section p{
+font-size: 16px;
+line-height: 26px;
+margin-bottom: 20px;
+}
+.while-section h4{
+  font-size: 18px;
+  line-height: 28px;
+  color: red;
+}
+/********** while-section end ************ */
+/********** package-section start ************** */
+.package-section{
+  width: 100%;
+  padding: 80px 0;
+}
+.package-section .row{
+  background: #fff;
+  border-radius: 12px;
+}
+.package-section h5{
+  font-size: 14px;
+  color: red;
+  margin-top: 60px;
+  line-height: 30px;
+}
+.package-section p{
+font-size: 16px;
+line-height: 26px;
+margin-bottom: 20px;
+}
+.package-section h4{
+  font-size: 18px;
+  line-height: 28px;
+  color: red;
+}
+/********** package-section end ************ */
+/********** keeping-section start ************** */
+.keeping-section{
+  width: 100%;
+  padding: 80px 0;
+}
+.keeping-section .row{
+  background: #fff;
+  border-radius: 12px;
+}
+.keeping-section h5{
+  font-size: 14px;
+  color: red;
+  margin-top: 60px;
+  line-height: 30px;
+}
+.keeping-section p{
+font-size: 16px;
+line-height: 26px;
+margin-bottom: 20px;
+}
+.keeping-section h4{
+  font-size: 18px;
+  line-height: 28px;
+  color: red;
+}
+/********** keeping-section end ************ */
+/********** family-section start************* */
+.family-section{
+  width: 100%;
+  padding: 80px 0;
+}
+.family-section .img-fluid{
+  max-width: 75%;
+}
+.family-section .head-line{
+  text-align: center;
+}
+.family-section .head-line h2{
+  font-size: 32px;
+  line-height: 42px;
+  color: #000;
+  margin: 80px 0 30px;
+}
+.family-section .head-line h2 span{
+  color: red;
+}
+.family-section .head-line h6{
+  color: red;
+  margin-bottom: 60px;
+}
+.family-section h5{
+  color: red;
+  margin: 30px 0px 15px;
+}
+.family-section p{
+  font-size: 14px;
+  margin: 0px 0px 80px;
+}
+.family-section .card-img, .card-img-bottom, .card-img-top {
+    margin: 0 auto;
+}
+/*********** family-section end ************ */
+/************* Personal Section Start *************** */
+.personal-section{
+  width: 100%;
+  padding: 40px 0;
+  background: url("../images/getting started.png") center top no-repeat;
+  background-size: cover;
+}
+.personal-section h2{
+  text-align: center;
+  color: #fff;
+  margin: 60px 0 30px;
+}
+.personal-section h2 span{
+  color: red;
+}
+.personal-section h5{
+  font-size: 16px;
+  color: red;
+  text-align: center;
+  margin: 20px 0 70px;
+}
+.personal-section .card {
+    background-color: #000;
+    border: 0.5px solid #444;
+}
+.personal-section .card-img, .card-img-bottom, .card-img-top {
+    margin-top: 25px;
+    width: 25%;
+}
+.personal-section h6{
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  margin: 20px 0 10px;
+}
+.personal-section p{
+  font-size: 13px;
+  color: #fff;
+  text-align: center;
+  margin: 0px 0 30px;
+}
+/************* Personal Section End *************** */
+/************* simply-section Start *************** */
+.simply-section{
+  width: 100%;
+  padding: 80px 0px;
+  text-align: center;
+}
+.simply-section h2{
+  text-align: center;
+  color: #000;
+  margin: 30px 0;
+}
+.simply-section h2 span{
+  color: red;
+}
+/************* simply-section End *************** */
+/************* understand-section Start *************** */
+.understand-section{
+  width: 100%;
+  padding: 80px 0;
+}
+.understand-section h3{
+  font-size: 24px;
+  color: #000;
+  margin: 40px 0;
+  text-align: center;
+}
+.understand-section h3 span{
+  color: red;
+}
+.understand-section h6{
+  font-size: 14px;
+  color: red;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.understand-section .rounded-start {
+    width: 20%;
+    margin-top: 120px;
+}
+.understand-section .card{
+    border:0px;
+}
+.understand-section .card-title {
+    margin: -66px 125px;
+}
+/************* understand-section End *************** */
+/************* affordable-section Start *************** */
+.affordable-section{
+  width: 100%;
+  padding: 80px 0;
+  background: url("../images/screenshot 1.png") center top no-repeat;
+  background-size: cover;
+}
+.affordable-section h3{
+  font-size: 24px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 50px;
+}
+.affordable-section h3 span{
+  color: red;
+}
+.affordable-section .card{
+  width: 100%;
+  margin: 60px 0;
+  border-radius: 20px 20px 20px 20px;
+}
+.affordable-section .card .card-header{
+  background: #7f0203;
+  color: #fff;
+  border-radius: 20px 20px 0 0;
+  padding: 30px 15px 25px;
+  font-size: 20px;
+}
+.affordable-section .card .card-body{
+  background: #141414;
+}
+.affordable-section .card .card-body .card-text span{
+  color: red;
+}
+.affordable-section .card .card-body .card-title span{
+  color: red;
+}
+.affordable-section .card .card-body h6{
+  font-size: 12px;
+}
+.confidence{
+  width: 100%;
+  padding: 80px 0;
+}
+.confidence .row{
+  background: url("../images/contra.png") center top no-repeat;
+  background-size: contain;
+}
+.confidence img{
+  width: 85%;
+  margin: -25px 40px 35px;
+}
+.confidence h2{
+  color: #fff;
+  margin: 60px 0 10px;
+}
+.confidence h2 span{
+  color: red;
+}
+.confidence p{
+  color: #fff;
+}
+.confidence .common-text{
+  text-align: left;
+}
+.confidence .common-text h3{
+  color: #fff;
+  margin: 120px 0 30px;
+}
+
+/************* affordable-section End *************** */
+/************* client-section Start *************** */
+.client-section{
+  width: 100%;
+  padding: 80px 0;
+}
+.client-section h2{
+  color: #000;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.client-section h2 span{
+    color: red;
+}
+.client-section .fa{
+    color: red;
+}
+.client-section h6{
+  font-size: 16px;
+  font-weight: 600;
+}
+.client-section p{
+  font-size: 14px;
+  color: #000;
+}
+.client-section .d-flex h5{
+
+}
+.client-section .d-flex p{
+
+}
+/************* client-section End *************** */
+/************ footer-section start *********** */
+.footer-section{
+  width: 100%;
+  background: url("../images/bgf.png") center top no-repeat;
+  background-size: cover;
+}
+.footer-section .inner-footer{
+  text-align: center;
+}
+.footer-section h2{
+  color: #fff;
+  padding: 50px 0 15px;
+}
+.footer-section h6{
+  color: red;
+  margin-bottom: 35px;
+}
+.footer-section p{
+  color: #fff;
+  margin-top: -12px;
+}
+.footer-section .inner-footer a{
+  display: block;
+  color: #fff;
+}
+.footer-section img{
+  padding-bottom: 25px;
+  margin-right: 10px;
+}
+.footer-section a{
+  color: #fff;
+}
+.footer-section .btn-danger{
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #fff;
+  background: red;
+  border: 1px solid red;
+  border-radius: 25px;
+  padding: 5px 15px;
+  transition: 1s;
+  margin-bottom: 30px;
+}
+.footer-section .btn-danger:hover{
+  color: red;
+  background: #fff;
+  border: 1px solid red;
+}
+.footer-section .main-footer{
+  border-top: 1px solid #ddd;
+}
+.footer-section .main-footer p{
+  margin-top: 10px;
+}
+.footer-section .social-icon{
+  text-align: right;
+  margin-top: 10px;
+}
+.footer-section .social-icon .fa{
+  color: #fff;
+  margin-left: 10px;
+}
+/************ footer-section end ************ */

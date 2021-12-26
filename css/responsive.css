@@ -1,0 +1,249 @@
+/***********************************
+* Responsive media queries code *
+************************************/
+/* Most of the Mobile Phone Code */
+@media ( min-width: 200px) and ( max-width: 480px) {
+/* code start */
+.top-bar .top-menu li {
+    margin-left: 10px;
+}
+.top-bar .top-menu li a {
+  font-size: 12px;
+}
+.top-bar .top-menu .btn-danger {
+    font-size: 10px;
+}
+.banner-section h2 {
+    margin: 10px 0px 20px 0px;
+    font-size: 20px;
+}
+.banner-section h5 {
+  font-size: 12px;
+}
+.banner-section p {
+  font-size: 10px;
+  line-height: 18px;
+}
+.banner-section .btn-danger {
+  font-size: 11px;
+}
+.banner-section .btn-light {
+  font-size: 11px;
+}
+.security-section h2 {
+  margin-top: 10px;
+  font-size: 22px;
+}
+.security-section p {
+  font-size: 12px;
+  line-height: 20px;
+}
+.security-section img{
+  width: 96%;
+  max-width: 100%;
+}
+.common-text .btn-danger {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.common-text .btn-light {
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+.camera-section {
+    padding: 20px 0;
+    width: 96%;
+    max-width: 100%;
+}
+.camera-section h2 {
+    font-size: 18px;
+}
+.camera-section p {
+    font-size: 11px;
+    line-height: 19px;
+}
+.camera-section .common-text .btn-danger {
+    font-size: 11px;
+}
+.camera-section .common-text .btn-light {
+    font-size: 11px;
+}
+.burglar-section {
+    padding: 30px 0;
+}
+.burglar-section img{
+  width: 96%;
+  max-width: 100%;
+}
+.burglar-section h5 {
+    margin-top: 10px;
+    line-height: 10px;
+}
+.while-section img{
+  width: 96%;
+  max-width: 100%;
+}
+.while-section h5 {
+    margin-top: 20px;
+}
+.package-section h5 {
+    margin-top: 10px;
+}
+.package-section img{
+  width: 96%;
+  max-width: 100%;
+}
+.keeping-section img{
+  width: 96%;
+  max-width: 100%;
+}
+.keeping-section p {
+    font-size: 13px;
+    line-height: 24px;
+}
+.common-text h2 {
+    font-size: 19px;
+}
+.family-section .head-line h2 {
+    font-size: 24px;
+    line-height: 32px;
+    margin: 20px 0 30px;
+}
+.family-section p {
+    font-size: 10px;
+    margin: 0px 0px 20px;
+}
+.common-text h2 {
+    font-size: 13px;
+}
+.personal-section h2 {
+    margin: 20px 0 10px;
+    font-size: 20px;
+}
+.personal-section p {
+    font-size: 11px;
+    line-height: 20px;
+}
+.simply-section h2 {
+    font-size: 17px;
+}
+.simply-section img{
+  width: 96%;
+  max-width: 100%;
+}
+.understand-section {
+    padding: 10px 0;
+}
+.understand-section h3 {
+    font-size: 15px;
+}
+.understand-section .card-title {
+    margin: -14px 0px 0px 76px;
+    font-size: 14px;
+}
+.understand-section .rounded-start {
+  width: 24%;
+  margin-top: 40px;
+}
+.affordable-section h3 {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.client-section {
+    padding: 10px 0;
+}
+.footer-section h2 {
+    padding: 20px 0 5px;
+    font-size: 18px;
+}
+.footer-section img {
+    padding-bottom: 20px;
+    margin-right: 44px;
+    max-width: 100%;
+}
+.confidence img {
+    width: 30%;
+    margin: -10px 0px 0px;
+}
+.confidence h2 {
+    color: #fff;
+    margin: -145px 56px 0px;
+    font-size: 16px;
+}
+.confidence p {
+    font-size: 10px;
+    margin: 0px 56px;
+}
+.confidence .common-text h3 {
+    margin: 15px 55px 10px;
+    font-size: 12px;
+}
+.common-text .btn-light {
+    font-size: 9px;
+    margin-bottom: 10px;
+}
+
+
+/* code end */
+}
+/* Most of the Mobile Phone and low-resolution Tablet Code */
+@media ( min-width: 481px) and (max-width: 767px) {
+/* code start */
+
+/* code end */
+}
+/* Most of the Tablet Phone and mini notebook Code */
+@media ( min-width: 768px) and (max-width: 1024px) {
+/* code start */
+.simply-section img{
+  width: 96%;
+  max-width: 100%;
+}
+.camera-section h2 {
+    font-size: 26px;
+}
+.burglar-section h2 {
+    font-size: 26px;
+}
+.family-section .head-line h2 {
+    font-size: 26px;
+    margin: 20px 0 20px;
+}
+.personal-section h2 {
+    margin: 30px 0 20px;
+    font-size: 24px;
+}
+.understand-section .rounded-start {
+    width: 15%;
+    margin-top: 115px;
+}
+.understand-section .card-title {
+    margin: -20px 125px;
+}
+.understand-section .img-fluid{
+    margin: 40px;
+}
+.confidence img {
+    width: 30%;
+    margin: -25px 15px 0px;
+}
+.confidence h2 {
+    margin: -270px 100px 0px;
+    font-size: 24px;
+}
+.confidence p {
+    margin: 0 100px;
+}
+.confidence .common-text h3 {
+    margin: 85px 100px 10px;
+    font-size: 20px;
+}
+.confidence .common-text .btn-danger{
+  margin: 0 100px;
+}
+.confidence .common-text .btn-light{
+  margin-bottom: 0px;
+}
+
+/* code end */
+}
